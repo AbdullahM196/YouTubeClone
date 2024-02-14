@@ -32,6 +32,9 @@ html {
   color: white !important;
   display: flex;
 }
+.app > * {
+  width: 100%;
+}
 .body {
   width: 100%;
   display: flex;
@@ -50,6 +53,6 @@ html {
 }
 @media only screen and (max-width: 550px) {
   .MainContent {
-    max-width: 100%;
+    width: 100%;
   }
 }

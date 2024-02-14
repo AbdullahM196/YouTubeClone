@@ -18,6 +18,7 @@ export const apiSlice = createApi({
         params: {
           q: searchValue,
           part: "snippet,id",
+          regionCode: "US",
           maxResults: "50",
           order: "date",
         },

@@ -12,7 +12,7 @@ export default function SecondNav() {
     }
   }
   return (
-    <div className="secondNav w-100">
+    <div className="secondNav">
       <ul>
         <li
           onClick={() => {
