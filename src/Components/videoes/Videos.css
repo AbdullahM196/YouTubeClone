@@ -1,0 +1,9 @@
+.videoCard {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  border: none;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: black;
+}

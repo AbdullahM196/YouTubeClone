@@ -1,0 +1,16 @@
+.HomeContent {
+  padding: 0 8px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+@media only screen and (max-width: 1081px) {
+  .HomeContent {
+    grid-template-columns: repeat(2, auto) !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .HomeContent {
+    grid-template-columns: repeat(1, auto) !important;
+  }
+}
